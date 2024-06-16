@@ -1,0 +1,18 @@
+>> Primeiro opção:
+ 'ao intercalar dois segmentos ordenados Ae (segmento da esquerda) e Ad (segmento da direita)
+ de um array A, se o menor elemento esta na participacao Ae entao avance uma posicao em Ae
+ (incremento da variavel i no esquema acima); se o menor elemento esta em Ad entao realize
+ uma troca de elementos entre Ae e Ad e avance uma posicao tanto em Ae quanto Ad (incremento
+ das variaveis i e j).'
+> Parece haver um erro, pois ao avançar os dois elemento Ae e Ad, não corresponde a forma de ordenar os elementos.
+É necessário ver quem é maio e quem é menor, para que um avanace e depois o outro. Assim do modo descrito pode haver uma falha
+de deixar algum numero maior para trás.
+
+>>Segunda Opção:
+'ao intercalar dois segmentos ordenados Ae (segmento da esquerda) e Ad (segmento da direita)
+ de um array A, se o menor elemento esta na participacao Ae entao avance uma posicao em Ae
+ (incremento da variavel i no esquema acima); se o menor elemento esta em Ad entao realize
+ uma troca de elementos entre Ae e Ad e avance uma posicao apenas em Ae (incremento da
+ variavel i).'
+> Apesar de começar bem, não hora de andar com os Ae e Ad está incorreto andando apenas com Ae, 
+a forma que o merge-sort trabalha é dividindo elementos, se não andar com Ad está preso ou resolverá apenas metade do problema.
